@@ -31,11 +31,6 @@ const Head: React.FC<Props> = ({ title, description, ogImage, keywords }) => {
       <title>
         {getTitle()}
       </title>
-      <link
-        rel="icon"
-        type="image/x-icon"
-        href="/favicon.svg"
-      />
       <meta
         name="description"
         content={description || defaultDescription}
